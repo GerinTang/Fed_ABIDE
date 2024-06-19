@@ -1,5 +1,4 @@
-# PyTorch implementation of Multi-site fMRI Analysis Using Privacy-preserving Federated Learning and Domain Adaptation: ABIDE Results
-Our manuscript is available on arxiv https://arxiv.org/pdf/2001.05647.pdf and published at Medical Image Analysis https://www.sciencedirect.com/science/article/pii/S1361841520301298.
+# PyTorch implementation of Multi-site Analysis Using Privacy-preserving Federated Learning and Domain Adaptation
 
 ## Dependencies
 - Python 3.6
@@ -50,20 +49,4 @@ python federated_MoE.py --split ${SPLIT}
 ```
 python federated_align.py --split ${SPLIT}
 ```
-
-## Reference
-[1]Li, X., Gu, Y., Dvornek, N., Staib, L., Ventola, P. and Duncan, J.S., 2020. Multi-site fmri analysis using privacy-preserving federated learning and domain adaptation: Abide results. arXiv preprint arXiv:2001.05647.
-
-Please cite our paper if you find this repository useful:
-```
-@article{li2020multi,
-  title={Multi-site fmri analysis using privacy-preserving federated learning and domain adaptation: Abide results},
-  author={Li, Xiaoxiao and Gu, Yufeng and Dvornek, Nicha and Staib, Lawrence and Ventola, Pamela and Duncan, James S},
-  journal={Medical Image Analysis},
-  year={2020}
-}
-```
-
-
-
 
